@@ -1,0 +1,44 @@
+<style>
+/*basic style*/
+*           {
+  box-sizing: border-box;
+}
+
+#body {
+  margin:0;
+  background: black;
+  color:white;
+  padding: 20px 30px;
+
+}
+#h{
+  background-color:black;
+  color:white;
+  text-align:center;/*居中*/
+  padding:6px;
+}
+
+#left{
+  line-height:30px;
+  background-color:#eeeeee;/*灰色*/
+  height:400px;
+  width:200px;
+  float:left;/*左对齐*/
+  padding:5px;
+}
+
+#right{
+  width:600px;
+  float:left；/*左对齐*/
+  pading:50px;
+}
+
+#foot{
+  background-color:black;
+  color:white;
+  clear:both;/*在左右两侧均不允许浮动元素*/
+  text-align:center;/*居中*/
+  padding:5px;
+
+}
+</style>
